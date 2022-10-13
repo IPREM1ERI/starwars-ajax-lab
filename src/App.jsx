@@ -6,8 +6,9 @@ import StarshipDetails from './pages/StarshipDetails/StarshipDetails';
 function App() {
   return (
     <>
+      
       <Routes>
-        <Route path='/starships-page' element={<StarshipPage />} />
+        <Route path='/' element={<StarshipPage />} />
         <Route path='/starship' element={<StarshipDetails />} />
       </Routes> 
     </>
